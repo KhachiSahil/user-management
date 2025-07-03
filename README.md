@@ -2,18 +2,6 @@
 
 A full‑stack demo that lets you **create, read, update, delete, bulk‑upload, and download users** via a simple React + TypeScript UI and an Express + PostgreSQL (Neon) API.
 
-## ✨ Features
-
-| Frontend (React + Tailwind) | Backend (Node + Express)  |
-|-----------------------------|---------------------------|
-| Responsive dashboard        | RESTful CRUD routes       |
-| Inline edit & delete        | File upload (Excel)       |
-| Bulk upload with Excel      | Row‑level validation      |
-| PAN mask / toggle eye       | Sample Excel & PDF download |
-| Toast notifications         | SQL transactions & error handling |
-
----
-
 ## 🏗 Tech Stack
 
 | Layer      | Tech                                     |
@@ -40,7 +28,7 @@ npm install
 
 # 3. spin up backend
 cd backend
-cp .env.example .env           # set DATABASE_URL + PORT
+cp .env.example .env           # set DATABASE_URL + PORT = 4000(compulsory as hardcoded in frontend)
 npm install
 npx ts-node-dev src/app.ts     # http://localhost:4000/api/health
 
