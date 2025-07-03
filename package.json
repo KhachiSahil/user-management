@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@types/pdfkit": "^0.14.0",
+    "axios": "^1.10.0",
+    "exceljs": "^4.4.0",
+    "multer": "^2.0.1",
+    "pdfkit": "^0.17.1",
+    "react-router-dom": "^7.6.3",
+    "react-toastify": "^11.0.5"
+  },
+  "name": "user-management",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/multer": "^2.0.0"
+  }
+}
