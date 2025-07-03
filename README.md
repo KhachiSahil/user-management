@@ -30,7 +30,8 @@ npm install
 cd backend
 cp .env.example .env           # set DATABASE_URL(go for neondb) + PORT = 4000(compulsory as hardcoded in frontend)
 npm install
-npx ts-node-dev src/app.ts     # http://localhost:4000/api/health
+npx tsc
+node .\dist\index.js
 
 # 4. spin up frontend
 cd ../frontend
